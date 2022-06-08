@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./calculadoramodify/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/CalToDocker:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/calculadora:latest
