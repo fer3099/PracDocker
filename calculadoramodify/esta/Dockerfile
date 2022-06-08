@@ -1,3 +1,4 @@
 FROM php:7.4-apache
-COPY /esta /var/www/html
+WORKDIR /app
+COPY . .
 EXPOSE 80
